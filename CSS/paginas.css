@@ -1,0 +1,1001 @@
+/*
+ *CSS de paginas especificas
+ *  */
+
+/* cadastro */
+#cadastro .input-div{
+    margin: 0 0 10px;
+}
+#cadastro input{
+    width: 200px;
+}
+#cadastro #input-contrato{
+    width: 350px;
+    margin: 0 auto 20px;
+}
+#cadastro #cadastro-contrato{
+    width: 20px;
+    float: left;
+}
+#cadastro #cadastro-facebook{
+    margin-bottom: 20px;
+}
+
+/* Selecao de tripulaçao */
+#home .select-trip{
+    margin: 5px;
+    display: inline;
+    position: relative;
+}
+#home .trip-clicada{ opacity: 1; }
+#home .trip-inativa,.trip-ativa{ opacity: 0.7; width: 100px; }
+#home .trip-inativa:hover,.trip-ativa:hover{ opacity: 1; }
+#home #tripulacoes-acoes{ margin-top: 20px; }
+
+#home .geral-box{
+	display: none;
+	position: absolute;
+}
+
+#novaTripulacao .content-steps{
+	position: relative;
+}
+#novaTripulacao #nova-trip{
+	height: 500px;
+}
+#novaTripulacao .step{
+	position: absolute;
+	display: none;
+}
+#novaTripulacao .step-seletor{
+	position: absolute;
+	bottom: 0px;
+	left: 310px;
+	width: 300px;
+}
+#novaTripulacao .step-seletor .step-switch,
+#novaTripulacao #seletor-capitao-div div
+{
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+#novaTripulacao .seletor-cap img{
+    width: 30px;
+    opacity: 0.7;
+    border: 1px solid transparent;
+}
+#novaTripulacao .seletor-cap img:hover{
+    opacity: 1;
+    border: 1px solid #000;
+}
+#novaTripulacao #informacoes-trip{
+    float: left;
+}
+#novaTripulacao #seletor-capitao{
+    width: 600px;
+    text-align: left;
+    display: inline-block;
+}
+#novaTripulacao #seletor-capitao table{
+    float: left;
+    border-collapse: collapse;
+}
+
+/* Trip Status */
+#tripulacaoStatus #informacao-geral{
+	width: 800px;
+	margin: auto;
+}
+#tripulacaoStatus .personagem{
+	height: 400px;
+	width: 800px;
+	position: relative;
+	margin: auto;
+}
+#tripulacaoStatus .info-personagem,
+#tripulacaoStatus .attr-personagem,
+#tripulacaoStatus .img-personagem{
+	float:left;
+	text-align: left;
+}
+#tripulacaoStatus .info-personagem,
+#tripulacaoStatus .img-personagem{
+	margin-right: 5px;
+}
+#tripulacaoStatus .info-personagem .geral-box,
+#tripulacaoStatus .attr-personagem .geral-box{
+	height: 300px;
+}
+#tripulacaoStatus .info-personagem .geral-box-content{
+	height: 253px;
+}
+#tripulacaoStatus .attr-personagem .geral-box-content{
+	height: 253px;
+	padding: 20px !important;
+}
+#tripulacaoStatus .attr-personagem .externo{
+	display: inline-block;
+}
+#tripulacaoStatus .personagem-buttons{
+	padding-top: 15px;
+	text-align: left;
+}
+#tripulacaoStatus .input-add-atributo{
+	width: 20px;
+	height: 14px;
+	margin-right:3px;
+	background: #fff;
+}
+
+/* Sistema Ilhas */
+#sistemaIlhas .box-sistemaIlhas{
+	float: left;
+}
+
+/*Sistema Mundi*/
+#sistemaMundi #mapa{
+	width: 550px;
+	height: 550px;
+	float: left;
+	position: relative;
+}
+#sistemaMundi #mapa .quadro{
+	width: 50px;
+	height: 50px;
+	opacity: 0.3;
+	position: absolute;
+	border-radius: 3px;
+}
+#sistemaMundi #mapa .quadro:hover{ background: #FFFFFF; }
+#sistemaMundi #mapa .n-navegavel{ background: #00dd00; }
+#sistemaMundi #mapa .n-navegavel:hover{ background: #00ff00; }
+#sistemaMundi #info{
+	width: 350px;
+	height: 550px;
+	float: left;
+	margin-left: 20px;
+}
+
+/* NPC */
+#npc #npc-geral{
+	width: 870px;
+	height: 575px;
+	padding: 25px 25px 0;
+}
+#npc #npc-geral #npc-img{
+	width: 411px;
+	height: 575px;
+	float: left;
+}
+#npc #npc-geral #npc-texto{
+	width: 391px;
+	height: 530px;
+	padding: 10px;
+	margin-left: 48px;
+	float: left;
+	overflow: auto;
+	position: relative;
+}
+#npc #npc-geral #npc-texto .bt-voltar{
+	position: absolute;
+	bottom:0px;
+	width:391px;
+	margin-bottom: 15px;
+}
+#npc #npc-geral #npc-texto .npc-funcao{
+	width: 100%;
+	font-weight: bold;
+	padding: 5px 0;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	margin: 3px;
+}
+#npc #npc-geral #npc-texto .npc-missao img{
+	float: left;
+}
+#npc #npc-geral #npc-texto .npc-missao:hover{
+	background: #fdfded !Important;
+}
+#npc #npc-geral #npc-texto .npc-funcao:hover{
+	text-decoration: underline;
+	background: #fff;
+}
+#npc #npc-geral #npc-texto .recompensa-missao{
+	text-align: left;
+}
+#npc #npc-geral #npc-texto .recompensa-missao img{
+	margin: 0 15px 0 25px;
+}
+#npc #npc-geral #npc-texto .recompensa-missao span{
+	margin-bottom: 15px;
+	display: inline-block;
+}
+#npc #npc-geral #npc-loja{
+	background: url("../Imagens/NPC/loja.jpg");
+	width: 367px;
+	height: 506px;
+	padding: 12px;
+}
+#npc #npc-loja .loja-label {
+	background: #222;
+	opacity: 0.8;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 3px;
+}
+#npc #npc-loja #loja-cabecalho{
+	margin: 7px 0;
+}
+#npc #npc-loja #loja-seletores{
+	height:20px;
+}
+#npc #npc-loja #loja-seletores div{
+	float: left;
+	margin: 0px 3px;
+}
+#npc #npc-loja #loja-secao-1{
+	height:200px;
+	margin: 10px 0;
+}
+#npc #npc-loja #loja-secao-2{
+	height:125px;
+}
+#npc #npc-loja #loja-informacoes{
+	height:100px;
+	position: relative;
+}
+
+
+/* sistemaIlhasExterno */
+#sistemaIlhasExterno #ilha-externa-visao{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin-left: 60px;
+	display: inline-block;
+	float: left;
+}
+#sistemaIlhasExterno #ilha-externa-editor{
+	padding: 30px;
+	height: 440px;
+	display: inline-block;
+}
+
+/* Ilha externa jogador */
+#ilhaGeral #ilha-externo-mapa{
+	width: 500px;
+	height: 500px;
+	margin-left: 25px;
+	float: left;
+	border: 1px solid #000;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#ilhaGeral #ilha-externo-lateral{
+	width: 330px;
+	float: left;
+	padding: 0 30px;
+}
+#ilhaGeral #ilha-externo-lateral .superior,
+#ilhaGeral #ilha-externo-lateral .inferior{
+	width: 300px;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+#ilhaGeral #ilha-externo-lateral .superior{
+	height: 40px;
+}
+#ilhaGeral #ilha-externo-lateral .inferior{
+	height: 390px;
+	overflow: auto;
+}
+
+/* Ilha externa generico */
+#ilhaGeral #ilha-zona-pvp{
+	padding: 10px;
+	color: #fff;
+	background: #dd0000;
+	width: 200px;
+	margin: auto auto 10px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+.ilha-externo-quadro{
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1); 
+	float: left;
+}
+.ilha-externo-quadro-eu{
+	background: #ddd;
+	opacity:1;
+}
+.ilha-externo-quadro:hover{
+	background: #fff;
+	opacity: 0.6;
+	box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1); 
+}
+.ilha-externo-quadro-eu:hover{
+	background: #fff;
+	opacity:1;
+}
+
+/* info do jogador na tela do oceano */
+.mapa-info-jogador{
+	border-bottom: 3px solid #000;
+	margin-bottom: 10px;
+}
+.mapa-info-jogador .info-jogador .jogador{
+	width: 220px;
+	float: left;
+}
+.mapa-info-jogador .info-jogador .jogador .left-bandeira{
+	width: 70px;
+	float: left;
+}
+.mapa-info-jogador .info-jogador .jogador .right-info{
+	font-size: 12px;
+	text-align: left;
+	width: 145px;
+	margin-left: 5px;
+	float: left;
+}
+.mapa-info-jogador .info-jogador .alianca{
+	float: left;
+}
+.mapa-info-jogador .acoes-jogador .bt-largo{
+	float: left;
+	margin: 5px 25px;
+}
+
+/* CT Classes */
+#ctClasses .img-classe{
+	margin: 2px;
+}
+#ctClasses .deselecionado{
+	display: none;
+}
+
+/* CT habilidades */
+#ctHabilidades .personagem-habilidades{
+	width: 920px;
+	height: 700px;
+	position: relative;
+}
+#ctHabilidades .personagem-habilidades .arvore{
+	float: left;
+	width: 250px;
+	margin-top: 23px;
+	text-align: left;
+	position: relative;
+}
+#ctHabilidades .personagem-habilidades .arvore-1{
+	margin-left: 150px;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade{
+	margin-bottom: 20px;
+	position: relative;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade.disponivel .habilidade-img{
+	box-shadow: 0px 0px 8px 5px #FFF;
+	background: #fff;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade.disponivel .habilidade-img:hover{
+	box-shadow: 0px 0px 8px 5px #FF0;
+	background: #ff0;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade .habilidade-quant{
+	position: absolute;
+		top: 7px;
+		left: 47px;
+	background: #131313;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-radius: 0 3px 3px 0;
+	padding: 0 10px;
+	opacity: 0.8;
+	color: #fff;
+	font-size: 25px;
+	font-family: "Pirata";
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade .habilidade-img{
+	width: 40px;
+	height: 40px;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade .habilidade-img:hover .habilidade-box-info{
+	display: block;
+}
+#ctHabilidades .personagem-habilidades .arvore .habilidade .habilidade-box-info{
+	position: absolute;
+		top: -10px;
+		left: 30px;
+	z-index: 2;
+	display: none;
+}
+#ctHabilidades .personagem-info-habilidade{
+	padding: 20px;
+	background: url("../Imagens/Backgrounds/conteudo2.jpg");
+	border: 2px solid #000;
+}
+#ctHabilidades .personagem-info-habilidade div{
+	color: #fff;
+	font-size: 25px;
+	font-family: "Pirata";
+}
+
+/* habilidades */
+#triHabilidades .personagem{
+	width: 621px;
+	padding-top: 30px;
+	margin: auto;
+	text-align: center;
+}
+#triHabilidades .habilidade{
+	margin-bottom: 30px;
+}
+#triHabilidades .habilidade-title div{
+	font-size: 18px;
+	font-family: "Times New Roman";
+	float: left;
+}
+#triHabilidades .habilidade-title .title{
+	width: 450px;
+	padding-top:10px;
+}
+#triHabilidades .habilidade-title .title span{
+	font-size: 12px;
+}
+#triHabilidades .habilidade-title .img{
+	border: 1px solid #000;
+	margin-left: 4px;
+	height: 50px;
+}
+#triHabilidades .habilidade-info {
+	display: none;
+	width: 400px;
+	clear: both;
+	margin: auto;
+	background: url(../Imagens/Backgrounds/conteudo2.jpg);
+	color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+}
+#triHabilidades .habilidade-info.habilidade-selecionada {
+	display: block;
+}
+
+/* equipamentos */
+#triEquipamentos .bonus{
+	float: left;
+	margin-left: 30px;
+}
+#triEquipamentos .bonus .geral-box-content{
+	padding: 30px;
+}
+#triEquipamentos .equipado{
+	float: left;
+	width: 300px;
+	padding: 20px;
+	background: url("../Imagens/Backgrounds/conteudo2.jpg");
+	border-radius: 5px;
+	position:relative;
+	margin-left: 125px;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+#triEquipamentos .equipado .slots{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 340px;
+}
+#triEquipamentos .equipado .slots .item-slot{
+	position:absolute;
+	padding: 3px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+}
+#triEquipamentos .equipado .slots .item-slot .item-box-hover{
+	display: none;
+	z-index: 2;
+	top: -40px;
+	left: 40px;
+}
+#triEquipamentos .equipado .slots .item-slot:hover .item-box-hover{
+	display: block;
+}
+#triEquipamentos .equipado .slot-1{
+	top: 30px;
+	left: 15px;
+}
+#triEquipamentos .equipado .slot-2{
+	top: 85px;
+	left: 15px;
+}
+#triEquipamentos .equipado .slot-3{
+	top: 140px;
+	left: 15px;
+}
+#triEquipamentos .equipado .slot-4{
+	top: 30px;
+	right: 15px;
+}
+#triEquipamentos .equipado .slot-5{
+	top: 85px;
+	right: 15px;
+}
+#triEquipamentos .equipado .slot-6{
+	top: 140px;
+	right: 15px;
+}
+#triEquipamentos .equipado .slot-7{
+	top: 280px;
+	left: 15px;
+}
+#triEquipamentos .equipado .slot-8{
+	top: 280px;
+	right: 15px;
+}
+#triEquipamentos .equipado .slot-9{
+	top: 195px;
+	right: 15px;
+}
+#triEquipamentos .personagem-info{
+	height: 650px;
+}
+
+/* Combate */
+#combate #cabecalho{
+	width: 920px;
+	height: 190px;
+	position: relative;
+	background: url("../Imagens/Batalha/Cabecalho.jpg");
+	color: #fff;
+}
+#combate #cabecalho .tipo-title{
+	width: 273px;
+	height: 47px;
+	font-family: "Pirata";
+	font-size: 34px;
+	position: absolute;
+		top: 10px;
+		left: 320px;
+	background: url("../Imagens/Batalha/tipoTitle.png");
+}
+#combate #cabecalho .vs{
+	width: 110px;
+	height: 130px;
+	position: absolute;
+		top: 60px;
+		left: 405px;
+	background: url("../Imagens/Batalha/VS.png");
+}
+#combate #cabecalho .jogador .info{
+	width: 220px;
+	padding: 25px 10px 0; 
+	float: left;
+	font-family: "Pirata";
+	font-size: 20px;
+}
+#combate #cabecalho .jogador .info .sup{
+	font-size: 36px;
+}
+#combate #cabecalho .jogador .info .mid span{
+	text-decoration: underline;
+}
+#combate #cabecalho .jogador .bandeira{
+	float: left;
+	position: absolute;
+	border-radius: 3px;
+	height: 103px;
+}
+#combate #cabecalho .jogador .bandeira.equipe-0{
+	border: 4px solid #00f;
+}
+#combate #cabecalho .jogador .bandeira.equipe-1{
+	border: 4px solid #f00;
+}
+#combate #cabecalho .jogador1{
+	position: absolute;
+		top: 0px;
+		left: 0px;
+}
+#combate #cabecalho .jogador1 .bandeira{
+	top: 65px;
+	left: 215px;
+}
+#combate #cabecalho .jogador2{
+	position: absolute;
+		top: 0px;
+		right: 0px;
+}
+#combate #cabecalho .jogador2 .bandeira{
+	top: 65px;
+	right: 215px;
+}
+#combate #relatorio{
+	width: 450px;
+	height: 150px;
+	position: absolute;
+		top: 10px;
+		left: 220px;
+	background: url("../Imagens/Transparent-white.png");
+	overflow: auto;
+	z-index: 20;
+	border-radius: 3px;
+}
+#combate #relatorio .log-linha{
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+#combate #relatorio .log-linha.equipe-0{
+	border: 1px solid #0000ff;
+}
+#combate #relatorio .log-linha.equipe-1{
+	border: 1px solid #ff0000;
+}
+#combate #relatorio .log-linha .derrotado{
+	padding: 0 3px;
+	color: #fff;
+	background: #000;
+}
+#combate #relatorio .log-linha .esquivou{
+	padding: 0 3px;
+	color: #fff;
+	background: #0f0;
+}
+#combate #relatorio .log-linha .bloqueou{
+	padding: 0 3px;
+	color: #fff;
+	background: #00f;
+}
+#combate #relatorio .log-linha .critou{
+	padding: 0 3px;
+	color: #fff;
+	background: #f00;
+}
+#combate #relatorio .log-linha-inf .alvo,
+#combate #relatorio .log-linha-sup {
+	border-bottom: 1px solid #000;
+	margin-bottom: 3px;
+}
+#combate #relatorio .log-linha-sup .atacante{
+	border-radius: 5px;
+	padding: 3px;
+	height: 29px;
+}
+#combate #relatorio .log-linha-inf .alvo:hover,
+#combate #relatorio .log-linha-sup .atacante:hover{
+	background: #fff;
+	cursor: pointer;
+}
+#combate #relatorio .log-linha-inf .alvo{
+	border-radius: 5px;
+	padding: 3px;
+	height: 22px;
+}
+#combate #relatorio .log-linha-sup .atacante-img{
+	width: 40px;
+	margin-right: 10px;
+}
+#combate #relatorio .log-linha-inf .alvo-img{
+	width: 30px;
+	margin-right: 10px;
+}
+#combate #relatorio .log-linha-sup .habilidade-img{
+	width: 20px;
+	margin: 0 10px;
+}
+#combate #relatorio .log-linha-sup .habilidade-descricao{
+	margin: 0 10px;
+}
+#combate #npc{
+	width: 410px;
+	height: 135px;
+	position: absolute;
+		top: 170px;
+	margin: auto;
+	left: 250px;
+	border-radius: 10px;
+}
+#combate #npc #npc-hp{
+	height: 17px;
+	position: absolute;
+		left: 102px;
+}
+#combate #npc #npc-img{
+	position: absolute;
+		top: 17px;
+		left: 100px;
+	border-radius: 5px;
+}
+
+#combate #tabuleiro .quadro-final{
+	position: relative;
+		top: 200px;
+	margin: auto;
+	width: 350px;
+	background: url("../Imagens/Transparent-white.png");
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 40px;
+}
+#combate #tabuleiro-bg{
+	width: 920px;
+	height: 600px;
+	position: relative;
+}
+#combate #tabuleiro{
+	width: 920px;
+	height: 600px;
+	position: relative;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#combate #tabuleiro-bg #personagens-info,
+#combate #tabuleiro-bg #personagens-info .personagem-tabuleiro-info{
+	position: absolute;
+		top: 20px;
+		left: 10px;
+}
+#combate #tabuleiro-bg.PvP #personagens-info .personagem-tabuleiro-info{
+	top: -10px;
+	left: -10px;
+}
+#combate #tabuleiro-bg #personagens-info .personagem-tabuleiro-info{
+	display: none;
+}
+#combate #tabuleiro-bg #personagens-info .personagem-tabuleiro-info .personagem-tabuleiro-info-title{
+	font-size: 22px;
+	font-family: "Pirata";
+	color: #fff;
+	width: 170px;
+	height: 49px;
+	background: url("../Imagens/Batalha/personagem-info-title.png")
+}
+#combate #tabuleiro-bg #personagem-click{
+	background: url("../Imagens/Backgrounds/conteudo2.jpg");
+	border: 3px solid #fff;
+	border-radius: 3px;
+	height: 260px;
+	padding: 10px;
+	position: absolute;
+	font-family: "Pirata";
+	font-size: 30px;
+	color: #fff;
+}
+#combate #tabuleiro-bg.PvE #personagem-click{
+	top: 50px;
+	right: 10px;
+	width: 195px;
+}
+#combate #tabuleiro-bg.PvP #personagem-click{
+	top: 5px;
+	right: 5px;
+	width: 170px;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs{
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 250px;
+}
+#combate #tabuleiro-bg #personagem-click .per-click-title{
+	width: 75px;
+	height: 55px;
+	padding: 2px;
+	border-radius: 3px;
+	margin: 0 auto 5px;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs .mover,
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs .basicas,
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs .classe,
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs .profissao,
+#combate #tabuleiro-bg #personagem-click .label .habilidade-imgs .akuma{
+	width: 200px;
+	clear: both;
+	border-bottom: 1px solid #fff;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-infos{
+	position: absolute;
+	top: 0;
+	left: -250px;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade_info{
+	font-family: "Times New Roman";
+	font-size: 12px;
+	color: #000;
+	position: absolute;
+	z-index: 20;
+	display: none;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel,
+#combate #tabuleiro-bg #personagem-click .label .habilidade{
+	height: 38px;
+	width: 38px;
+	margin: 3px;
+	float:left;
+	border-radius: 3px;
+}
+
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel img,
+#combate #tabuleiro-bg #personagem-click .label .habilidade img{
+	width: 38px;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel{
+	opacity: 0.5;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade{
+	cursor: pointer;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade{
+	
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel.habilidade-tipo-undefined,
+#combate #tabuleiro-bg #personagem-click .label .habilidade.habilidade-tipo-undefined{
+	border: 2px solid #0000ff;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel.habilidade-tipo-1,
+#combate #tabuleiro-bg #personagem-click .label .habilidade.habilidade-tipo-1{
+	border: 2px solid #ff0000;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade-indisponivel.habilidade-tipo-2,
+#combate #tabuleiro-bg #personagem-click .label .habilidade.habilidade-tipo-2{
+	border: 2px solid #00ff00;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade_atacar.habilidade-selecionada,
+#combate #tabuleiro-bg #personagem-click .label .habilidade.habilidade_atacar:hover{
+	box-shadow: 0px 0px 8px 5px #ddff00;
+	z-index: 20;
+}
+#combate #tabuleiro-bg #personagem-click .label .habilidade_mover.habilidade-selecionada,
+#combate #tabuleiro-bg #personagem-click .label .habilidade.habilidade_mover:hover{
+	box-shadow: 0px 0px 8px 5px #00ffff;
+	z-index: 20;
+}
+#combate #tabuleiro-bg #personagem-click .label{
+	display: none;
+}
+#combate #tabuleiro-personagens .quadro{
+	position: absolute;
+	padding: 2px;
+	border-radius: 3px;
+}
+#combate #tabuleiro-personagens .quadro.personagem{
+	opacity: 1 !important;
+}
+#combate .personagem-hover,
+#combate #tabuleiro-personagens .quadro.personagem:hover{
+	box-shadow: 0px 0px 8px 5px #FFF;
+	z-index: 20 !important;
+}
+#combate .personagem-hover:not(.personagem){
+	background: #fff;
+	opacity: 0.7;
+}
+#combate #tabuleiro-personagens .quadro.personagem.personagem-selecionado{
+	box-shadow: 0px 0px 8px 5px #ffd;
+}
+#combate #tabuleiro-personagens .quadro.movimento{
+	background: #0000ff;
+	opacity: 0.5;
+	z-index: 20;
+	cursor: pointer;
+	border: 1px solid;
+}
+#combate #tabuleiro-personagens .quadro.movimento:hover{
+	box-shadow: 0px 0px 8px 5px #00ffff;
+	z-index: 20 !important;
+}
+#combate #npc.ataque,
+#combate #tabuleiro-personagens .quadro.ataque:not(.ataque-selecionado){
+	background: #ff0000;
+	opacity: 0.5;
+	cursor: pointer;
+	border: 1px solid;
+}
+#combate #npc.ataque:hover,
+#combate #tabuleiro-personagens .quadro.ataque:hover:not(.ataque-selecionado){
+	box-shadow: 0px 0px 8px 5px #ddff00;
+	z-index: 20 !important;
+}
+#combate #tabuleiro-personagens .quadro.ataque-selecionado{
+	background: #aa00ff;
+	opacity: 0.5;
+	border: 1px solid;
+}
+#combate #npc.ataque:hover,
+#combate #tabuleiro-personagens .quadro.ataque.personagem:hover{
+	opacity: 1;
+}
+#combate #tabuleiro-personagens .quadro .personagem-img{
+	position: absolute;
+	left: 2px;
+}
+#personagem-click .per-click-title.equipe-0,
+#combate #tabuleiro-personagens .equipe-0{
+	background: #0000ff !important;
+}
+#personagem-click .per-click-title.equipe-1,
+#combate #tabuleiro-personagens .equipe-1{
+	background: #ff0000 !important;
+}
+#combate #tabuleiro-PvE{
+	width: 734px;
+	height: 250px;
+	position: absolute;
+		top: 318px;
+		left: 95px;
+}
+#combate #tabuleiro-PvP{
+	width: 734px;
+	height: 250px;
+	position: absolute;
+		top: 205px;
+		left: 89px;
+}
+#combate #tempo-espera-sec{
+	position: absolute;
+		top: 300px;
+		left: 95px;
+	display: block;
+	padding: 5px 5px 5px 15px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 70px;
+	text-align: left;
+	background: url("../Imagens/Batalha/Tempo.png") no-repeat 80% 50%;
+}
+
+/* Hospital */
+#hospitalTratamento .personagem-tratamento{
+	width: 300px;
+	height: 400px;
+	float: left;
+	background: url("../Imagens/Backgrounds/cama-hospital.png");
+	position: relative;
+}
+#hospitalTratamento .personagem-tratamento .per-trat-img{
+	position: absolute;
+	width: 100px;
+		top: 150px;
+		left: 65px;
+}
+#hospitalTratamento .personagem-tratamento .per-trat-img img{
+	border: 1px solid #000;
+}
+#hospitalTratamento .personagem-tratamento .per-trat-check{
+	background: #4e63da;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 5px 0 0;
+	position: absolute;
+		top: 12px;
+		left: 25px;
+}
+#hospitalTratamento .personagem-tratamento .per-trat-time{
+	color: #0f0;
+	position: absolute;
+		top: 152px;
+		left: 210px;
+	width: 70px;
+}
+

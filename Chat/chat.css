@@ -1,0 +1,55 @@
+body{
+	background: transparent;
+	text-align: center;
+	font-family: "Times New Roman", serif;
+	font-size: 14 px;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+#mensagens{
+	height: 350px;
+	overflow: auto;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 5px;
+	font-size: 15px !important;
+}
+#minha_msg{
+	padding: 2px;
+	height: 20px;
+	width: 190px;
+	margin: auto;
+	font-family: "Times New Roman", serif;
+	font-size: 12px;
+}
+#canal{
+	height: 23px;
+}
+.system-msg{
+	font-style: italic;
+	color: #222;
+}
+.text_msg b{
+	font-weight: bold;
+	font-size: 12px;
+}
+.text_msg{
+	font-size: 13px;
+}
+.o{
+	color: #000066;
+}
+.i{
+	color: #002200;
+}
+.f{
+	color: #660000;
+}
+.a{
+	color: #006600;
+}
+

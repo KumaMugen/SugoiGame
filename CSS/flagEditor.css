@@ -1,0 +1,67 @@
+#flag-container{
+    width: 150px;
+    height: 103px;
+    margin: auto;
+}
+#layer-select{
+    position: relative;
+    width: 200px;
+    height: 36px;
+    margin: auto;
+    background-image: url(../Imagens/ColorPicker/colorpicker_indic.gif);
+    background-repeat: no-repeat;
+    background-position: 48px 15px;
+}
+.pos-editor-drag, .color-editor, .select-arrow, .layer-select-img{ cursor: pointer; }
+.layer-select-img{ margin: 3px; }
+#layer-1-posicoes,
+#layer-2-posicoes,
+#layer-3-posicoes{
+    color: #9a9a9a;
+    background: url("../Imagens/ColorPicker/flageditor_background.png");
+    text-align: left;
+    width: 400px;
+    padding: 18px 20px;
+    display: inline-block;
+}
+#layer-1-colors,
+#layer-2-colors,
+#layer-3-colors,
+.select-img,
+.select-arrow,
+.select-img input{
+    display: inline-block;
+}
+.pos-editor-drag-content{
+    display: inline-block;
+    background-color: #222222;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 11px;
+    width: 211px;
+    margin-right: 10px;
+}
+.pos-editor-drag{
+    background: #9a9a9a url("../Imagens/ColorPicker/colorpicker_select.gif");
+    border-radius: 10px;
+    height: 11px;
+    width: 11px;
+}
+.pos-editor input,
+.select-img input{
+    display: inline-block;
+    color: #9a9a9a;
+    background: #222222;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    width: 50px;
+}
+.editor-label{
+    width: 90px;
+    display: inline-block;
+}
+.select-arrow{
+    font-weight: bold;
+    padding: 0 10px;
+}

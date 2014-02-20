@@ -1,0 +1,14 @@
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+	background: url("../Imagens/borda-lineV.jpg"); /*Cor da barrinha que se move*/
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+/*** Parte fixa da rolagem (fundo que não se move) ***/
+::-webkit-scrollbar {
+	width:5px; /*Largura da barra de rolagem*/
+	height:5px; /*Altura da barra de rolagem*/
+	background: #dddddd; /*Cor da parte fixa, que fica no mundo*/
+	opacity: 0.5;
+}

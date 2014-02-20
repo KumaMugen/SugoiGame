@@ -1,0 +1,98 @@
+21:07:37 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#1 C:\xampp\htdocs\SugoiGame3\chat.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#2 C:\xampp\htdocs\SugoiGame3\chat.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:07:44 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#1 C:\xampp\htdocs\SugoiGame3\chat.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#2 C:\xampp\htdocs\SugoiGame3\chat.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:07:46 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#1 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#2 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:07:50 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#1 C:\xampp\htdocs\SugoiGame3\runRedir.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', 'dc9ad459749d1f0...')
+#2 C:\xampp\htdocs\SugoiGame3\runRedir.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:16:48 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#1 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#2 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:18:08 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#1 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#2 C:\xampp\htdocs\SugoiGame3\index.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
+21:18:12 14-02-2014----------------------------------------
+Tentativa de criar usuario
+Tentativa de criar usuario 0000000001
+Usuario nao encontrado
+#0 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#1 C:\xampp\htdocs\SugoiGame3\runRedir.php(2): require('C:\xampp\htdocs...')
+#2 {main}
+#0 C:\xampp\htdocs\SugoiGame3\Classes\Usuario.class.php(59): Usuario->tException('Tentativa de cr...')
+#1 C:\xampp\htdocs\SugoiGame3\config.php(64): Usuario->__construct('0000000001', '3a2300df24250c7...')
+#2 C:\xampp\htdocs\SugoiGame3\runRedir.php(2): require('C:\xampp\htdocs...')
+#3 {main}
+::1
+-----------------------------------------------------------
+
